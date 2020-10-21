@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/ben/Desktop/Programming Structures&Abs/.metadata/.plugins/org.eclipse.jdt.core
+4215273522.index
