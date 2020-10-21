@@ -8,19 +8,30 @@ public class SuperStack<T> {
 	}
 public boolean isEmpty() {
 	//TODO
-	return true;
+	return top ==0;
 }
 public boolean isFull() {
 	//TODO
-	return true;
+	return top == items.length;
 }
 public boolean push(T item) {
 	//TODO
+	if (isFull()) {
+		return false;
+	}
+items[top++] = item;
 	return true;
+	
 }
 public T pop() {
 	//TODO
-	return null;
+	if (isEmpty()) {
+		return null;
+	
+	}else {
+		top--;
+		return items[top];
+	}
 }
 
 }
